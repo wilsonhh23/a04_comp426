@@ -32,6 +32,6 @@ You will need to obtain your own API keys for both Google Maps and OpenWeatherMa
 
 ### Running the Application
 - Clone the repository to your local machine.
-- Replace the placeholder API keys in the code with your actual API keys. (Google Maps placeholder is within index.html. OpenWeatherMap placeholder is within script.js.)
+- Replace the placeholder API keys in the code with your actual API keys. (GOOGLE_MAPS_API_KEY_PLACEHOLDER is within index.html and script.js. OPEN_WEATHER_API_KEY_PLACEHOLDER is within script.js.)
 - Open `index.html` in your web browser to run the application.
 

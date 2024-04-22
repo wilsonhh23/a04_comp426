@@ -33,7 +33,7 @@ function fetchWeather(lat, lng) {
 }
 
 function fetchLocationName(lat, lng) {
-    const apiKey = 'AIzaSyBblXDjJD-AwmPKfm4uTNM-UIyt4IU2Cl4'; 
+    const apiKey = 'GOOGLE_MAPS_API_KEY_PLACEHOLDER'; 
     const url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lng}&key=${apiKey}`;
 
     fetch(url)
