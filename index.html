@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather and Maps App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Weather and Maps App</h1>
+    <h2>Click on any location in the world on the map to find its temperature and current weather conditions.</h2>
+    <div id="map" style="height: 400px; width: 100%;"></div>
+    <div id="weather">
+        <h3>Weather Details</h3>
+        <p id="weather-info">Weather information will appear here.</p>
+    </div>
+    
+    <!-- Load the Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key='GOOGLE_MAPS_API_KEY_PLACEHOLDER'&callback=initMap" async defer></script>
+    <script src="script.js"></script>
+</body>
+</html>
